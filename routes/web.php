@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,4 +40,14 @@ Route::get('/conflict/{nama}', function($namaitem){
     return 'Nama Barang : ' .  $namaitem;
 });
 
-Route::get('/product', [ItemController::class, 'item']);
+//Route::get('/product', [ItemController::class, 'item']);
+
+Route::get('/product', [ProdukController::class, 'index']);
+
+Route::get('/', function () {
+    return view('landing');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
