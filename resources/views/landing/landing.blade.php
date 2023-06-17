@@ -7,20 +7,20 @@
         <meta name="author" content="" />
         <title>GIFTDISH</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{ asset('/') }}assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('/') }}bs5landing/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="{{ asset('/') }}bs5landing/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="{{ asset('/') }}assets/img/navbar-logo.svg" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top">Giftdish</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -35,7 +35,11 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+            <li class="btn btn-light mx-auto">
+                <a class="nav-link text-dark" href="{{ route('login') }}" >Login</a>
+            </li>
+            </nav>            
+       
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
@@ -53,10 +57,10 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="{{ asset('/') }}assets/img/carousels/1.jpg" class="d-block w-100 h-200" alt="...">
+                    <img src="{{ asset('/') }}bs5landing/assets/img/carousels/1.jpg" class="d-block w-100 h-200" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="{{ asset('/') }}assets/img/carousels/2.jpg" class="d-block w-100 h-200" alt="...">
+                    <img src="{{ asset('/') }}bs5landing/assets/img/carousels/2.jpg" class="d-block w-100 h-200" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -108,7 +112,7 @@
         <section class="page-section bg-light" id="products">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">products</h2>
+                    <h2 class="section-heading text-uppercase">Products</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
@@ -119,11 +123,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/1.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/1.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Chicken Mentai S</div>
-                                <div class="products-caption-subheading text-muted">Rp.15,000</div>
+                                <div class="products-caption-subheading text-muted">Rp.18.000</div>
                             </div>
                         </div>
                     </div>
@@ -134,11 +138,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/2.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/2.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Chicken Mentai M</div>
-                                <div class="products-caption-subheading text-muted">Rp. 18,000</div>
+                                <div class="products-caption-subheading text-muted">Rp. 23.000</div>
                             </div>
                         </div>
                     </div>
@@ -149,11 +153,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/3.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/3.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Chicken Mentai L</div>
-                                <div class="products-caption-subheading text-muted">Rp. 20,000</div>
+                                <div class="products-caption-subheading text-muted">Rp. 30.000</div>
                             </div>
                         </div>
                     </div>
@@ -164,11 +168,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/4.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/4.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Beef Mentai S</div>
-                                <div class="products-caption-subheading text-muted">Rp. 22,000</div>
+                                <div class="products-caption-subheading text-muted">Rp. 25.000</div>
                             </div>
                         </div>
                     </div>
@@ -179,11 +183,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/5.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/5.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Beef Mentai M</div>
-                                <div class="products-caption-subheading text-muted">Rp. 24,000</div>
+                                <div class="products-caption-subheading text-muted">Rp. 35.000</div>
                             </div>
                         </div>
                     </div>
@@ -194,11 +198,11 @@
                                 <div class="products-hover">
                                     <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="{{ asset('/') }}assets/img/products/6.jpg" alt="..." />
+                                <img class="img-fluid" src="{{ asset('/') }}bs5landing/assets/img/products/6.jpg" alt="" />
                             </a>
                             <div class="products-caption">
                                 <div class="products-caption-heading">Beef Mentai L</div>
-                                <div class="products-caption-subheading text-muted">Rp. 25,000</div>
+                                <div class="products-caption-subheading text-muted">Rp. 45.000</div>
                             </div>
                         </div>
                     </div>
@@ -214,7 +218,7 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}bs5landing/assets/img/about/1.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2021</h4>
@@ -224,7 +228,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}bs5landing/assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2022</h4>
@@ -234,7 +238,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}bs5landing/assets/img/about/3.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>December 2022</h4>
@@ -244,7 +248,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ asset('/') }}bs5landing/assets/img/about/4.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>July 2023</h4>
@@ -277,7 +281,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}assets/img/team/1.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}bs5landing/assets/img/team/1.jpg" alt="..." />
                             <h4>Yoseph Santovino Roso</h4>
                             <p class="text-muted">Leader Team</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Yoseph Santovino Roso Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -287,7 +291,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}assets/img/team/2.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}bs5landing/assets/img/team/2.jpg" alt="..." />
                             <h4>Daka Radhiyan Yahya</h4>
                             <p class="text-muted">Accounting</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Daka Radhiyan Yahya Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -297,7 +301,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="{{ asset('/') }}bs5landing/assets/img/team/3.jpg" alt="..." />
                             <h4>Angga Satria Ganendra</h4>
                             <p class="text-muted">Head Chef</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Angga Satria Ganendra Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -316,16 +320,16 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
                     </div>
                 </div>
             </div>
@@ -398,7 +402,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; GIFTDISH 2023</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -416,7 +420,7 @@
         <div class="products-modal modal fade" id="productsModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -424,7 +428,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai S</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/1.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/1.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -452,7 +456,7 @@
         <div class="products-modal modal fade" id="productsModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -460,7 +464,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai M</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/2.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/2.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -488,7 +492,7 @@
         <div class="products-modal modal fade" id="productsModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -496,7 +500,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai L</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/3.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/3.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -524,7 +528,7 @@
         <div class="products-modal modal fade" id="productsModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -532,7 +536,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai S</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/4.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/4.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -560,7 +564,7 @@
         <div class="products-modal modal fade" id="productsModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -568,7 +572,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai M</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/5.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/5.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -596,7 +600,7 @@
         <div class="products-modal modal fade" id="productsModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{{ asset('/') }}bs5landing/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -604,7 +608,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai L</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}assets/img/products/6.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/6.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -631,7 +635,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="{{ asset('/') }}bs5landing/js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

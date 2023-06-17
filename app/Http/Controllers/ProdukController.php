@@ -14,13 +14,20 @@ class ProdukController extends Controller
      */
     public function index()
     {
-        $nama = 'laptop';
+        $nama = [ 
+                ];
 
-        return view('product', [
-            'nama' => $nama, compact('nama')
-        ]);
+        return view('master.product', compact('nama'));
         
     }
+
+    public function productlist()
+    {
+        return view('master.productlist');
+        
+    }
+    
+    
 
     /**
      * Show the form for creating a new resource.

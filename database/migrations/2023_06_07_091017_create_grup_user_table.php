@@ -13,11 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('order', function (Blueprint $table) {
+        Schema::create('grup_user', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('customer_id')->constrained('customer');
-            $table->date('tanggal_order');
-            $table->integer('jumlah_total');
+            $table->string('nama_grup',100);
+            $table->integer('jumlah_anggota');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order');
+        Schema::dropIfExists('grup_user');
     }
 };
