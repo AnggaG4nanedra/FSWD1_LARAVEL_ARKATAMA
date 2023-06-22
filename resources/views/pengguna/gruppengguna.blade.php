@@ -37,21 +37,13 @@
                                     <th scope="col">No.</th>
                                     <th scope="col">Nama Grup Pengguna</th>
                                     <th scope="col">Anggota</th>
-                                    <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1.</td>
-                                    <td>Dua Bestie</td>
-                                    <td>2 Orang</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>2.</td>
-                                    <td>Guru Murid</td>
-                                    <td>2 Orang</td>
-                                    <td>-</td>
+                                    <td>Admin</td>
+                                    <td>3 Orang</td>
                                 </tr>
                             </tbody>
                         </table>

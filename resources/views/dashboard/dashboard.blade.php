@@ -19,10 +19,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('landing') }}" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                    <a class="nav-link {{ request()->url('/') == url('/') ? 'active' : '' }}" href="{{ route('landing') }}" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produk</a>
+                    <a class="nav-link {{ request()->url('/produk') == url('/produk') ? 'active' : '' }} dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produk</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="{{ route('daftarproduk') }}">Daftar Produk</a>
                         <a class="dropdown-item" href="{{ route('kategori') }}">Kategori</a>
@@ -33,10 +33,17 @@
                         <a class="dropdown-item" href="{{ route('daftarpengguna') }}">Daftar Pengguna</a>
                         <a class="dropdown-item" href="{{ route('gruppengguna') }}">Grup Pengguna</a>
                     </div>
-                    </li>
+                  </li>
                 </li>
-                </li>
+                
             </ul>
+            <div class="d-flex">
+              <form action="{{ url('/logout') }}" method="post">
+                @csrf
+                <button type="submit" class="btn btn-primary m-2">Logout</button>
+              </form>
+             
+                </div>
         </div>
   </div>
 </nav>

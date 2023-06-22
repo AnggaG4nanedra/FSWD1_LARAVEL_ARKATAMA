@@ -36,53 +36,19 @@
                                 <tr>
                                     <th scope="col">No.</th>
                                     <th scope="col">Nama Produk</th>
-                                    <th scope="col">Ukuran</th>
                                     <th scope="col">Harga</th>
-                                    <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1.</td>
                                     <td>Giftdish Chicken Mentai</td>
-                                    <td>S</td>
                                     <td>Rp. 15.000</td>
-                                    <td>-</td>
                                 </tr>
                                 <tr>
                                     <td>2.</td>
-                                    <td>Giftdish Chicken Mentai</td>
-                                    <td>M</td>
-                                    <td>Rp. 18.000</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>3.</td>
-                                    <td>Giftdish Chicken Mentai</td>
-                                    <td>L</td>
-                                    <td>Rp. 20.000</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>4.</td>
                                     <td>Giftdish Beef Mentai</td>
-                                    <td>S</td>
                                     <td>Rp. 22.000</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>5.</td>
-                                    <td>Giftdish Beef Mentai</td>
-                                    <td>M</td>
-                                    <td>Rp. 24.000</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>6.</td>
-                                    <td>Giftdish Beef Mentai</td>
-                                    <td>L</td>
-                                    <td>Rp. 25.000</td>
-                                    <td>-</td>
                                 </tr>
                             </tbody>
                         </table>

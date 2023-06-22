@@ -36,27 +36,19 @@
                                         <tr>
                                             <th>No.</th>
                                             <th>Kategori</th>
-                                            <th>Isi</th>
-                                            <th>Harga</th>
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1.</td>
-                                            <td>Kategori 1 Paket Giftdish Mantap</td>
-                                            <td>1 Chicken Mentai S, 1 Chiken Mentai L</td>
-                                            <td>Rp. 35.000</td>
+                                            <td>Nasi Mentai</td>
+                                            <td>Now Sale</td>
                                         </tr>
                                         <tr>
                                             <td>2.</td>
-                                            <td>Kategori 2 Paket Giftdish Kenyang Banget</td>
-                                            <td>1 Beef Mentai L, 1 Chiken Mentai L</td>
-                                            <td>Rp. 45.000</td>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td>Kategori 1 Paket Giftdish Hemat</td>
-                                            <td>1 Beef Mentai S, 1 Chiken Mentai S</td>
-                                            <td>Rp. 30.000</td>
+                                            <td>Toasted</td>
+                                            <td>Coming Soon</td>
                                         </tr>
                                     </tbody>
                                 </table>

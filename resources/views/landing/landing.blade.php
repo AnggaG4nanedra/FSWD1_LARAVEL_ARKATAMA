@@ -8,12 +8,10 @@
         <title>GIFTDISH</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{{ asset('/') }}bs5landing/assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('/') }}bs5landing/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -35,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <li class="btn btn-light mx-auto">
+            <li class="btn btn-primary btn-xl text-uppercase mx-auto">
                 <a class="nav-link text-dark" href="{{ route('login') }}" >Login</a>
             </li>
             </nav>            
@@ -50,7 +48,7 @@
         </header>
         <!--carousel/slider-->
         <section class="page-section" id="Carousel">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide m-5" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,7 +76,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">layanan</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Website Giftdish memiliki beberapa layanan sebagai berikut.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -87,7 +85,7 @@
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Produk Giftdish terjual di beberapa e-Commerce seperti Shopee Food, Go Food.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -95,7 +93,7 @@
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Website</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Bagi para pelanggan Giftdish "Bellybestie" bisa memesan melalui website kami yaitu giftdishbellybestie.com.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -103,8 +101,17 @@
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Keamanan Pembeli</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Bagi Giftdish keamanan pembeli menjadi nomor 1 dan bisa kami pastikan data pembeli akan terjaga dengan baik dan aman.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- deskripsi -->
+        <section class="page-section" id="Description">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Apa itu Giftdish? </h2>
+                    <h3 class="section-subheading text-muted">Selamat datang di "giftdish" - bisnis makanan yang penuh dengan kelezatan dan kreativitas! Didirikan oleh kami, mahasiswa administrasi bisnis dari UPN Veteran Jawa Timur, "giftdish" memiliki misi untuk memberikan pengalaman kuliner yang unik dan memikat hati kepada pelanggan kami.</h3>
                 </div>
             </div>
         </section>
@@ -112,8 +119,9 @@
         <section class="page-section bg-light" id="products">
             <div class="container">
                 <div class="text-center">
+
                     <h2 class="section-heading text-uppercase">Products</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Berikut ini merupakan beberapa produk milik kami.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -214,7 +222,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Seputar Perjalanan Rancangan Giftdish.</h3>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -224,7 +232,7 @@
                                 <h4>2021</h4>
                                 <h4 class="subheading">Project Awal Giftdish</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Giftdish diawali dengan project awal yang berasal dari tugas kampus yang diharuskan untuk membuat bisnis sendiri.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -234,7 +242,7 @@
                                 <h4>2022</h4>
                                 <h4 class="subheading">R&D Awal GIFTDISH</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Untuk pengembangan Giftdish melakukan riset terhadap pasar para mahasiswa pada umumnya dan testimoni mengenai rasa awal produk kami.</p></div>
                         </div>
                     </li>
                     <li>
@@ -244,7 +252,7 @@
                                 <h4>December 2022</h4>
                                 <h4 class="subheading">Perjalanan GIFTDISH di Mulai</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Giftdish mulai debut penjualan di stan saat terdapat event di Alun-alun Surabaya. </p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -254,17 +262,17 @@
                                 <h4>July 2023</h4>
                                 <h4 class="subheading">Ekspansi Menu Baru</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Untuk saat ini Giftdish sedang melakukan R&D mengenai Menu baru bertema roasted atau panggangan.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
-                                Be Part
+                                Yuk
                                 <br />
-                                Of Our
+                                Jadi bagian 
                                 <br />
-                                Story!
+                                Cerita Kami!
                             </h4>
                         </div>
                     </li>
@@ -311,7 +319,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Terima kasih telah mengunjungi halaman kami! Kami berharap pengalaman Anda di sini telah memberi Anda wawasan baru, inspirasi, dan informasi berharga. Kami siap membantu Anda mewujudkan impian dan mencapai tujuan Anda.<br> Salam Hangat, <br> 
+                    Tim Kami </p></div>
                 </div>
             </div>
         </section>
@@ -338,15 +347,12 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Hubungi Kami</h2>
+                    <h3 class="section-subheading text-muted">Customer Service Kami Siap melayani saran dan kritik anda.</h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
                 <!-- This form is pre-integrated with SB Forms.-->
                 <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
@@ -382,8 +388,8 @@
                     <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
+                            <div class="fw-bolder">Pesan Telah Dikirim!</div>
+                            Terima Kasih atas Sara yang diberikan, Rekan Giftdish
                             <br />
                             <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
@@ -394,7 +400,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Kirim Pesan</button></div>
                 </form>
             </div>
         </section>
@@ -427,17 +433,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai S</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Pertama dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Chicken Mentai. Tidak hanya sekadar hidangan ayam biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan ayam yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Chicken Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong>Ukuran :</strong>
+                                            Small
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <strong>Harga:</strong>
+                                            Rp. 18.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -463,17 +473,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai M</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Kedua dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Chicken Mentai. Tidak hanya sekadar hidangan ayam biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan ayam yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Chicken Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Explore
+                                            <strong>Ukuran :</strong>
+                                            Medium
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
+                                            <strong>Harga :</strong>
+                                            Rp. 23.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -499,17 +513,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Chicken Mentai L</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Ketiga dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Chicken Mentai. Tidak hanya sekadar hidangan ayam biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan ayam yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Chicken Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Finish
+                                            <strong>Ukuran:</strong>
+                                            Large
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Identity
+                                            <strong>Harga:</strong>
+                                            Rp. 30.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -535,17 +553,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai S</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Keempat dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Beef Mentai. Tidak hanya sekadar hidangan daging biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan daging yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Beef Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Lines
+                                            <strong>Ukuran:</strong>
+                                            Small
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Branding
+                                            <strong>Harga :</strong>
+                                            Rp. 25.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -571,17 +593,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai M</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Kelima dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Beef Mentai. Tidak hanya sekadar hidangan daging biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan daging yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Beef Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Southwest
+                                            <strong>Ukuran:</strong>
+                                            Medium
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Website Design
+                                            <strong>Harga:</strong>
+                                            Rp. 35.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -607,17 +633,21 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Beef Mentai L</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Produk Keenam dari Giftdish.</p>
                                     <img class="img-fluid d-block mx-auto" src="{{ asset('/') }}bs5landing/assets/img/products/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Izinkan kami memperkenalkan Anda pada kelezatan yang tak tertandingi: Beef Mentai. Tidak hanya sekadar hidangan daging biasa, tetapi juga sebuah masterpiece gastronomi yang menyatukan cita rasa gurih, lezat, dan menggigit.
+                                    <br><br>
+                                    Bayangkan potongan daging yang sempurna, dipanggang dengan sempurna hingga kecokelatan dan renyah di luar, tetapi tetap lembut dan juicy di dalamnya. Lalu, ditutup dengan saus Mentai yang kaya akan rasa creamy, gurih, dan lembut yang terbuat dari perpaduan sempurna antara mayonnaise, keju, dan taburan berbagai rempah pilihan.
+                                    <br><br>
+                                    Beef Mentai adalah harmoni sempurna antara cita rasa Timur dan Barat yang menyatu dalam satu gigitan. Ini adalah perpaduan kelezatan yang memukau, memanjakan lidah Anda dengan sensasi yang tak terlupakan. Setiap suapan adalah perjalanan melintasi lapisan rasa yang berpadu secara sempurna, menggoda selera dan mengirimkan kepuasan tak terkira</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Window
+                                            <strong>Ukuran:</strong>
+                                            Large
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Photography
+                                            <strong>Harga:</strong>
+                                            Rp. 45.000
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" id="beliButton">Beli</button>
@@ -632,14 +662,8 @@
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="{{ asset('/') }}bs5landing/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="{{ asset('/') }}bs5landing/js/scripts.js"></script>   
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

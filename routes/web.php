@@ -3,8 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\CustomerController;
-use App\Http\Controllers\loginController;
-
+use App\Http\Controllers\LandingController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,9 @@ use App\Http\Controllers\loginController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//route landing
+Route::get('/', [LandingController::class, 'index']);
 
 Route::get('/', function () {
     return view('welcome');
@@ -43,7 +47,6 @@ Route::get('/conflict/{nama}', function($namaitem){
     return 'Nama Barang : ' .  $namaitem;
 });
 
-//Route::get('/product', [ItemController::class, 'item']);
 
 
 Route::get('/product', [ProdukController::class, 'index']);
@@ -58,7 +61,16 @@ Route::get('/customer-edit/{id}',[CustomerController::class, 'edit']);
 Route::put('/customer-update',[CustomerController::class, 'update']);
 Route::get('/customer-delete/{id}',[CustomerController::class, 'delete']);
 
-Route::get('/login',[loginController::class, 'login']);
+
+//route login
+Route::get('login', [LoginController::class, 'index']);
+Route::post('login', [LoginController::class, 'authenticate']);
+Route::post('logout', [LoginController::class, 'logout']);
+
+//route register
+route::get('register', [RegisterController::class, 'index']);
+route::post('register', [RegisterController::class, 'store']);
+
 
 
 

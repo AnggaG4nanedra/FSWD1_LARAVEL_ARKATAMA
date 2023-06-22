@@ -39,41 +39,29 @@
                                     <th scope="col">Email</th>
                                     <th scope="col">Alamat</th>
                                     <th scope="col">Nomor HP</th>
-                                    <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1.</td>
-                                    <td>Naruto Uzumaki</td>
-                                    <td>narutouzumaki@gmail.com</td>
-                                    <td>Jln. Ramen No 23., RT 1 RW 1, Ds. Konoha Raya</td>
-                                    <td>911</td>
-                                    <td>-</td>
+                                    <td>Daka Radyan Y.</td>
+                                    <td>dakaradiyani@gmail.com</td>
+                                    <td>Jln. Regency No 23., RT 1 RW 1, Juanda Regency, Sidoarjo</td>
+                                    <td>089571123480</td>
                                 </tr>
                                 <tr>
                                     <td>2.</td>
-                                    <td>Sasuke Uchiha</td>
-                                    <td>sasukeuchiha@gmail.com</td>
-                                    <td>Jln. Ramen No 22., RT 2 RW 1, Ds. Konoha Raya</td>
-                                    <td>811</td>
-                                    <td>-</td>
+                                    <td>Yoseph Santovino R.</td>
+                                    <td>yosephsantovino@gmail.com</td>
+                                    <td>Jln. Rungkut No 22., RT 2 RW 1, Surabaya</td>
+                                    <td>081266547788</td>
                                 </tr>
                                 <tr>
                                     <td>3.</td>
-                                    <td>Sakura Haruno</td>
-                                    <td>sakuraharuno@gmail.com</td>
-                                    <td>Jln. Ramen No 21., RT 3 RW 1, Ds. Konoha Raya</td>
-                                    <td>711</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>4.</td>
-                                    <td>Hatake Kakashi</td>
-                                    <td>hatakekakashi@gmail.com</td>
-                                    <td>Jln. Ramen No 20., RT 4 RW 1, Ds. Konoha Raya</td>
-                                    <td>911</td>
-                                    <td>-</td>
+                                    <td>Angga Satria G.</td>
+                                    <td>anggasatria@gmail.com</td>
+                                    <td>Jln. Potroyudho No 21., RT 3 RW 1, Ds. Tebel Barat</td>
+                                    <td>089655283858</td>
                                 </tr>
                             </tbody>
                         </table>
